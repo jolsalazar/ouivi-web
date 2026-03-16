@@ -353,7 +353,7 @@ export default function Pricing() {
               Precios simples, sin sorpresas
             </h2>
             <p className="section-subtitle" style={{margin:'0 auto'}}>
-              Empezá gratis, crezcamos juntos. Sin contratos, cancelás cuando quieras.
+              Empieza gratis, crezcamos juntos. Sin contratos, cancela cuando quieras.
             </p>
           </div>
 

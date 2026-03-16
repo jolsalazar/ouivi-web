@@ -1,9 +1,10 @@
 export default function Platforms() {
   const platforms = [
-    { name: 'Tiendanube', color: '#2E5BFF', bg: '#EEF2FF', abbr: 'TN' },
-    { name: 'Jumpseller', color: '#FF5A36', bg: '#FFF0ED', abbr: 'JS' },
+    { name: 'Desarrollo propio', color: '#2563EB', bg: '#eff6ff', abbr: '</>' },
     { name: 'WooCommerce', color: '#7F54B3', bg: '#F5F0FF', abbr: 'WC' },
+    { name: 'Tiendanube', color: '#2E5BFF', bg: '#EEF2FF', abbr: 'TN' },
     { name: 'Shopify', color: '#96BF48', bg: '#F1F8E9', abbr: 'SH' },
+    { name: 'Jumpseller', color: '#FF5A36', bg: '#FFF0ED', abbr: 'JS' },
     { name: 'MercadoShops', color: '#FFE600', bg: '#FFFDE7', textColor: '#665C00', abbr: 'MS' },
   ]
 
@@ -79,7 +80,7 @@ export default function Platforms() {
       <section className="platforms">
         <div className="container">
           <div className="platforms-inner">
-            <p className="platforms-label">Compatible con tus plataformas favoritas</p>
+            <p className="platforms-label">Compatible con cualquier tienda online</p>
             <div className="platforms-list">
               {platforms.map(p => (
                 <div
@@ -102,7 +103,7 @@ export default function Platforms() {
               ))}
             </div>
             <p className="platforms-note">
-              ¿Usás otra plataforma? <span>Escribinos</span> y lo evaluamos juntos.
+              ¿Tienes una plataforma diferente? <span>Escríbenos</span> y lo evaluamos juntos.
             </p>
           </div>
         </div>

@@ -2,6 +2,7 @@ export default function Comparison() {
   const rows = [
     { feature: 'En español', vincula: true, judge: false, yotpo: false },
     { feature: 'Soporte por WhatsApp', vincula: true, judge: false, yotpo: false },
+    { feature: 'Ecommerce de desarrollo propio', vincula: true, judge: false, yotpo: false },
     { feature: 'Tiendanube / Jumpseller', vincula: true, judge: false, yotpo: false },
     { feature: 'Pago en moneda local', vincula: true, judge: false, yotpo: false },
     { feature: 'Recuperador de carrito', vincula: true, judge: false, yotpo: 'partial' },
@@ -200,7 +201,7 @@ export default function Comparison() {
               ¿Por qué Vincula y no las alternativas?
             </h2>
             <p className="section-subtitle" style={{margin:'0 auto'}}>
-              Construido para el ecommerce latinoamericano, con las integraciones y el idioma que necesitás.
+              Construido para el ecommerce latinoamericano, incluyendo tiendas de desarrollo propio.
             </p>
           </div>
 

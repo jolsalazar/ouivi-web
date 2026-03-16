@@ -201,15 +201,15 @@ export default function CTAFinal() {
             </div>
 
             <h2 className="cta-title">
-              Empezá hoy y<br />vendé más mañana
+              Empieza hoy y<br />vende más mañana
             </h2>
 
             <p className="cta-subtitle">
-              Sumate a los primeros ecommerces latinoamericanos que están usando Vincula para convertir más.
+              Únete a los primeros ecommerces latinoamericanos que están usando Vincula para vender más.
             </p>
 
             <div className="cta-logos">
-              {['Tiendanube', 'Jumpseller', 'WooCommerce', 'Shopify'].map(p => (
+              {['Desarrollo propio', 'WooCommerce', 'Tiendanube', 'Shopify'].map(p => (
                 <span key={p} className="cta-logo-chip">{p}</span>
               ))}
             </div>

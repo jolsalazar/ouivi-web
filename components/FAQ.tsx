@@ -5,23 +5,23 @@ import { useState } from 'react'
 const faqs = [
   {
     q: '¿Cómo instalo Vincula en mi tienda?',
-    a: 'Una línea de código, igual que Google Analytics. Copiás el snippet que te damos al registrarte y lo pegás en el <head> de tu tienda. Sin programación, sin desarrolladores. Si tenés dudas, te ayudamos por WhatsApp.',
+    a: 'Una línea de código, igual que Google Analytics. Copia el snippet que te damos al registrarte y pégalo en el <head> de tu tienda. Sin programación, sin desarrolladores. Si tienes dudas, te ayudamos por WhatsApp.',
   },
   {
-    q: '¿Funciona con Tiendanube y Jumpseller?',
-    a: 'Sí, construido específicamente para las plataformas más usadas en Latinoamérica. Tiendanube, Jumpseller, WooCommerce, Shopify y MercadoShops tienen integración nativa. Sin plugins raros, sin configuraciones complicadas.',
+    q: '¿Funciona con ecommerce de desarrollo propio?',
+    a: 'Sí, y es uno de los principales casos de uso. Si tienes una tienda desarrollada a medida (Node.js, Laravel, Django, o cualquier otra tecnología), solo pegas el snippet en tu HTML y listo. No dependes de ningún plugin ni plataforma específica.',
   },
   {
     q: '¿Puedo usar solo reviews sin los addons?',
-    a: 'Sí, los addons son 100% opcionales. El plan base incluye todo el sistema de reviews. Podés agregar el recuperador de carrito y Google Merchant Sync en cualquier momento, solo cuando lo necesites.',
+    a: 'Sí, los addons son 100% opcionales. El plan base incluye todo el sistema de reviews. Puedes agregar el recuperador de carrito y Google Merchant Sync en cualquier momento, solo cuando lo necesites.',
   },
   {
     q: '¿Cómo se cobra?',
-    a: 'Cobramos por PayPal en dólares estadounidenses. Sin contrato de permanencia, cancelás cuando quieras sin penalidades. En el plan anual ahorrás un 20% respecto al precio mensual.',
+    a: 'Cobramos por PayPal en dólares estadounidenses. Sin contrato de permanencia, cancela cuando quieras sin penalidades. En el plan anual ahorras un 20% respecto al precio mensual.',
   },
   {
     q: '¿Tienen soporte en español?',
-    a: 'Soporte por WhatsApp en español, de lunes a viernes en horario laboral latinoamericano. En los planes Growth y Agency tenés soporte prioritario con respuesta en menos de 2 horas.',
+    a: 'Soporte por WhatsApp en español, de lunes a viernes en horario laboral latinoamericano. En los planes Growth y Agency tienes soporte prioritario con respuesta en menos de 2 horas.',
   },
   {
     q: '¿Hay período de prueba?',

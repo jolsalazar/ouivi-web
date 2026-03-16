@@ -2,12 +2,12 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Vincula.io — Reviews, recuperador de carrito y Google Merchant para ecommerce latinoamericano',
-  description: 'Reviews automáticos, recuperador de carrito y Google Merchant Sync en una sola herramienta. Compatible con Tiendanube, Jumpseller y WooCommerce. En español, con soporte local.',
+  title: 'Vincula.io — Reviews, recuperador de carrito y Google Merchant para tu ecommerce',
+  description: 'Reviews automáticos, recuperador de carrito y Google Merchant Sync en una sola herramienta. Compatible con cualquier ecommerce: Tiendanube, WooCommerce, desarrollo propio y más. En español, con soporte local.',
   keywords: 'reviews ecommerce, recuperador de carrito, google merchant sync, tiendanube, jumpseller, woocommerce, latinoamerica',
   authors: [{ name: 'Vincula.io' }],
   openGraph: {
-    title: 'Vincula.io — Convertí más en tu ecommerce latinoamericano',
+    title: 'Vincula.io — Vende más en tu ecommerce latinoamericano',
     description: 'Reviews automáticos, recuperador de carrito y Google Merchant Sync. En español, con soporte local.',
     url: 'https://vincula.io',
     siteName: 'Vincula.io',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vincula.io — Convertí más en tu ecommerce latinoamericano',
+    title: 'Vincula.io — Vende más en tu ecommerce latinoamericano',
     description: 'Reviews automáticos, recuperador de carrito y Google Merchant Sync.',
   },
   robots: {

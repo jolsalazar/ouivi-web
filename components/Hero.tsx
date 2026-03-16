@@ -355,17 +355,17 @@ export default function Hero() {
             <div className="hero-content reveal">
               <div className="hero-badge">
                 <span className="dot" />
-                Compatible con Tiendanube, Jumpseller y WooCommerce
+                Compatible con cualquier ecommerce: plataformas y desarrollo propio
               </div>
 
               <h1 className="hero-title">
-                Convertí más en tu ecommerce{' '}
+                Vende más en tu ecommerce{' '}
                 <span className="highlight">latinoamericano</span>
               </h1>
 
               <p className="hero-subtitle">
                 Reviews automáticos, recuperador de carrito y Google Merchant Sync en una sola herramienta.
-                En español, con soporte local.
+                Para cualquier tienda online, en español y con soporte local.
               </p>
 
               <div className="hero-actions">

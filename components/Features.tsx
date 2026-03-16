@@ -153,7 +153,7 @@ export default function Features() {
               <span className="feature-tag" style={{background:'#fef3c7', color:'#92400e'}}>Reviews</span>
               <h3 className="feature-title">Reviews automáticos</h3>
               <p className="feature-desc">
-                Pedí reviews post-compra automáticamente. Mostralos con rich snippets para Google y aumentá tu credibilidad.
+                Solicita reviews post-compra automáticamente. Muéstralos con rich snippets para Google y aumenta tu credibilidad.
               </p>
               <ul className="feature-bullets">
                 <li>
@@ -194,7 +194,7 @@ export default function Features() {
               <span className="feature-tag" style={{background:'#dbeafe', color:'#1e40af'}}>Carrito</span>
               <h3 className="feature-title">Recuperador de carrito</h3>
               <p className="feature-desc">
-                El 70% de los carritos se abandonan. Recuperalos con emails automáticos y convertí visitas en ventas.
+                El 70% de los carritos se abandonan. Recupéralos con emails automáticos y convierte visitas en ventas.
               </p>
               <ul className="feature-bullets">
                 <li>
