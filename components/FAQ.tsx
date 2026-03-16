@@ -1,7 +1,3 @@
-'use client'
-
-import { useState } from 'react'
-
 const faqs = [
   {
     q: '¿Cómo instalo Vincula en mi tienda?',
@@ -30,8 +26,6 @@ const faqs = [
 ]
 
 export default function FAQ() {
-  const [open, setOpen] = useState<number | null>(null)
-
   return (
     <>
       <style>{`
@@ -43,56 +37,58 @@ export default function FAQ() {
           flex-direction: column;
           gap: 10px;
         }
-        .faq-item {
+        .faq-details {
           background: var(--white);
           border: 1.5px solid var(--gray-200);
           border-radius: 16px;
           overflow: hidden;
           transition: border-color 0.2s, box-shadow 0.2s;
+          list-style: none;
         }
-        .faq-item.is-open {
+        .faq-details[open] {
           border-color: var(--blue-light);
           box-shadow: 0 0 0 4px rgb(37 99 235 / 0.06);
         }
-        .faq-trigger {
-          width: 100%;
-          background: none;
-          border: none;
+        .faq-summary {
           display: flex;
           align-items: center;
           justify-content: space-between;
           gap: 16px;
           padding: 20px 24px;
           cursor: pointer;
-          text-align: left;
+          list-style: none;
           transition: background 0.15s;
+          user-select: none;
+          -webkit-user-select: none;
         }
-        .faq-trigger:hover { background: var(--gray-50); }
+        .faq-summary::-webkit-details-marker { display: none; }
+        .faq-summary::marker { display: none; }
+        .faq-summary:hover { background: var(--gray-50); }
         .faq-question {
           font-size: 15px;
           font-weight: 600;
           color: var(--gray-900);
           line-height: 1.4;
+          flex: 1;
         }
-        .faq-icon {
-          width: 28px; height: 28px;
+        .faq-chevron {
+          width: 28px;
+          height: 28px;
           border-radius: 8px;
           background: var(--gray-100);
-          display: flex; align-items: center; justify-content: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           flex-shrink: 0;
-          transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
           color: var(--gray-500);
+          transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
         }
-        .faq-item.is-open .faq-icon {
+        .faq-details[open] .faq-chevron {
           background: var(--blue-50);
           color: var(--blue);
           transform: rotate(180deg);
         }
-        .faq-answer-wrap {
-          overflow: hidden;
-          transition: max-height 0.35s cubic-bezier(0.4,0,0.2,1);
-        }
-        .faq-answer {
+        .faq-body {
           padding: 16px 24px 20px;
           font-size: 15px;
           color: var(--gray-500);
@@ -111,8 +107,8 @@ export default function FAQ() {
         .faq-cta strong { color: var(--gray-900); }
         @media (max-width: 768px) {
           .faq-question { font-size: 14px; }
-          .faq-trigger { padding: 16px 18px; }
-          .faq-answer { padding: 12px 18px 16px; }
+          .faq-summary { padding: 16px 18px; }
+          .faq-body { padding: 12px 18px 16px; }
         }
       `}</style>
 
@@ -136,34 +132,22 @@ export default function FAQ() {
           </div>
 
           <div className="faq-list">
-            {faqs.map((faq, i) => {
-              const isOpen = open === i
-              return (
-                <div
-                  key={i}
-                  className={`faq-item reveal${i > 0 ? ` reveal-delay-${Math.min(i, 4)}` : ''}${isOpen ? ' is-open' : ''}`}
-                >
-                  <button
-                    className="faq-trigger"
-                    onClick={() => setOpen(isOpen ? null : i)}
-                    aria-expanded={isOpen}
-                  >
-                    <span className="faq-question">{faq.q}</span>
-                    <span className="faq-icon" aria-hidden="true">
-                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                        <path d="M3 5l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </span>
-                  </button>
-                  <div
-                    className="faq-answer-wrap"
-                    style={{ maxHeight: isOpen ? '400px' : '0' }}
-                  >
-                    <div className="faq-answer">{faq.a}</div>
-                  </div>
-                </div>
-              )
-            })}
+            {faqs.map((faq, i) => (
+              <details
+                key={i}
+                className={`faq-details reveal${i > 0 ? ` reveal-delay-${Math.min(i, 4)}` : ''}`}
+              >
+                <summary className="faq-summary">
+                  <span className="faq-question">{faq.q}</span>
+                  <span className="faq-chevron" aria-hidden="true">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                      <path d="M3 5l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </span>
+                </summary>
+                <div className="faq-body">{faq.a}</div>
+              </details>
+            ))}
           </div>
 
           <div className="faq-cta reveal">
