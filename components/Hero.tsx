@@ -253,18 +253,18 @@ export default function Hero() {
             <div className="hero-content reveal">
               <div className="hero-badge">
                 <span className="dot" />
-                Desarrollo propio, WooCommerce, Tiendanube y más
+                Reviews · Carrito abandonado · Google Shopping
               </div>
 
               <h1 className="hero-title">
-                El 70% de tus clientes<br />
-                se va sin comprar.<br />
-                <span className="highlight">Vincula los trae de vuelta.</span>
+                Tu tienda pierde ventas<br />
+                todos los días.<br />
+                <span className="highlight">Vincula lo soluciona.</span>
               </h1>
 
               <p className="hero-subtitle">
-                Reviews automáticos, recuperador de carrito y Google Shopping en una sola línea de código.
-                Para cualquier tienda online, en español.
+                La herramienta de growth para ecommerce en español: reviews que generan confianza,
+                carritos recuperados automáticamente y visibilidad gratis en Google Shopping.
               </p>
 
               <div className="hero-actions">
@@ -291,7 +291,7 @@ export default function Hero() {
               <div className="hero-stats">
                 <div className="hero-stat-item">
                   <span className="hero-stat-value">+120</span>
-                  <span className="hero-stat-label">tiendas en beta</span>
+                  <span className="hero-stat-label">tiendas activas</span>
                 </div>
                 <div className="hero-stat-item">
                   <span className="hero-stat-value">$890</span>
@@ -299,7 +299,7 @@ export default function Hero() {
                 </div>
                 <div className="hero-stat-item">
                   <span className="hero-stat-value">4.8/5</span>
-                  <span className="hero-stat-label">valoración usuarios</span>
+                  <span className="hero-stat-label">satisfacción de clientes</span>
                 </div>
                 <div className="hero-stat-item">
                   <span className="hero-stat-value">3 min</span>

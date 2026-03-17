@@ -19,16 +19,16 @@ const plans: Plan[] = [
     name: 'Starter',
     monthlyPrice: 15,
     annualPrice: 12,
-    description: 'Para tiendas que están empezando a crecer.',
+    description: 'Reviews automáticos para una tienda. Ideal para empezar.',
     color: '#f8faff',
     accentColor: 'var(--blue)',
-    cta: 'Empezar ahora',
+    cta: 'Solicitar acceso',
     features: [
       { text: '1 tienda', included: true },
       { text: 'Hasta 200 reviews/mes', included: true },
-      { text: 'Dashboard completo', included: true },
       { text: 'Widget embebible', included: true },
       { text: 'Email post-compra', included: true },
+      { text: 'Dashboard de métricas', included: true },
       { text: 'Soporte prioritario', included: false },
     ],
   },
@@ -36,17 +36,17 @@ const plans: Plan[] = [
     name: 'Growth',
     monthlyPrice: 35,
     annualPrice: 28,
-    description: 'Para tiendas en expansión que quieren más.',
+    description: 'Reviews ilimitados para hasta 3 tiendas. El más elegido.',
     popular: true,
     color: 'var(--blue)',
     accentColor: '#fff',
-    cta: 'Empezar ahora',
+    cta: 'Solicitar acceso',
     features: [
       { text: '3 tiendas', included: true },
-      { text: 'Reviews ilimitadas', included: true },
-      { text: 'Dashboard completo', included: true },
+      { text: 'Reviews ilimitados', included: true },
       { text: 'Widget embebible', included: true },
       { text: 'Email post-compra', included: true },
+      { text: 'Dashboard de métricas', included: true },
       { text: 'Soporte prioritario', included: true },
     ],
   },
@@ -54,16 +54,16 @@ const plans: Plan[] = [
     name: 'Agency',
     monthlyPrice: 79,
     annualPrice: 63,
-    description: 'Para agencias y equipos que gestionan múltiples clientes.',
+    description: 'Para agencias que gestionan múltiples clientes.',
     color: '#f8faff',
     accentColor: 'var(--blue)',
-    cta: 'Empezar ahora',
+    cta: 'Solicitar acceso',
     features: [
       { text: '10 tiendas', included: true },
-      { text: 'Reviews ilimitadas', included: true },
-      { text: 'Dashboard completo', included: true },
+      { text: 'Reviews ilimitados', included: true },
       { text: 'White label', included: true },
       { text: 'Email post-compra', included: true },
+      { text: 'Dashboard de métricas', included: true },
       { text: 'Soporte dedicado', included: true },
     ],
   },
@@ -353,7 +353,7 @@ export default function Pricing() {
               Precios simples, sin sorpresas
             </h2>
             <p className="section-subtitle" style={{margin:'0 auto'}}>
-              Empieza gratis, crezcamos juntos. Sin contratos, cancela cuando quieras.
+              Sin contratos ni letra chica. Cancela cuando quieras.
             </p>
           </div>
 
@@ -447,8 +447,8 @@ export default function Pricing() {
 
           {/* Addons */}
           <div className="addons-section reveal">
-            <h3 className="addons-title">Potenciá tu plan</h3>
-            <p className="addons-subtitle">Agregá funciones extra a cualquier plan cuando lo necesites.</p>
+            <h3 className="addons-title">Potencia tu plan</h3>
+            <p className="addons-subtitle">Agrega funciones extra a cualquier plan cuando lo necesites.</p>
             <div className="addons-grid">
               {addons.map(addon => (
                 <div key={addon.name} className="addon-card">

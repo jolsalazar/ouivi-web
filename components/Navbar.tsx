@@ -166,7 +166,7 @@ export default function Navbar() {
 
             <div className="nav-cta">
               <a href="#cta" className="btn btn-outline btn-sm">Iniciar sesión</a>
-              <a href="#cta" className="btn btn-primary btn-sm">Empezar gratis</a>
+              <a href="#cta" className="btn btn-primary btn-sm">Solicitar acceso</a>
               <button
                 className={`hamburger${menuOpen ? ' open' : ''}`}
                 onClick={() => setMenuOpen(!menuOpen)}
@@ -184,7 +184,7 @@ export default function Navbar() {
         <a href="#features" onClick={() => setMenuOpen(false)}>Características</a>
         <a href="#pricing" onClick={() => setMenuOpen(false)}>Precios</a>
         <a href="#faq" onClick={() => setMenuOpen(false)}>FAQ</a>
-        <a href="#cta" className="btn btn-primary" onClick={() => setMenuOpen(false)}>Empezar gratis →</a>
+        <a href="#cta" className="btn btn-primary" onClick={() => setMenuOpen(false)}>Solicitar acceso →</a>
       </div>
     </>
   )

@@ -20,8 +20,8 @@ const faqs = [
     a: 'Soporte por WhatsApp en español, de lunes a viernes. En los planes Growth y Agency tienes soporte prioritario con respuesta en menos de 2 horas.',
   },
   {
-    q: '¿Hay período de prueba?',
-    a: 'Estamos en beta privada. Contáctanos para solicitar acceso anticipado y ser de los primeros en usar Vincula. Los primeros usuarios tienen precio especial garantizado de por vida.',
+    q: '¿Cómo es el proceso de onboarding?',
+    a: 'Por ahora el acceso es por solicitud para garantizar soporte personalizado a cada tienda. Una vez aprobada tu solicitud, te contactamos en menos de 24 horas para hacer el setup juntos. Los primeros clientes tienen precio especial garantizado.',
   },
 ]
 

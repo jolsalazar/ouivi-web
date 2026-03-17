@@ -196,16 +196,16 @@ export default function CTAFinal() {
         <div className="container">
           <div className="cta-inner reveal">
             <div className="cta-eyebrow">
-              <span style={{fontSize:'16px'}}>🚀</span>
-              Acceso anticipado · Beta privada
+              <span style={{fontSize:'16px'}}>🔒</span>
+              Acceso limitado · Cupos disponibles
             </div>
 
             <h2 className="cta-title">
-              Empieza hoy y<br />vende más mañana
+              ¿Cuánto dinero perdiste<br />esta semana?
             </h2>
 
             <p className="cta-subtitle">
-              Únete a los primeros ecommerces que están usando Vincula para vender más.
+              Cada día sin Vincula es carritos abandonados, reviews que no llegan y tráfico de Google que no ves.
             </p>
 
             <div className="cta-logos">
@@ -234,7 +234,7 @@ export default function CTAFinal() {
                   aria-label="Email"
                 />
                 <button type="submit" className="cta-btn">
-                  Quiero acceso →
+                  Quiero mi acceso →
                 </button>
               </form>
             )}

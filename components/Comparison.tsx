@@ -1,10 +1,9 @@
 export default function Comparison() {
   const rows = [
-    { feature: 'En español', vincula: true, judge: false, yotpo: false },
+    { feature: 'Interfaz y soporte en español', vincula: true, judge: false, yotpo: false },
     { feature: 'Soporte por WhatsApp', vincula: true, judge: false, yotpo: false },
     { feature: 'Ecommerce de desarrollo propio', vincula: true, judge: false, yotpo: false },
     { feature: 'Tiendanube / Jumpseller', vincula: true, judge: false, yotpo: false },
-    { feature: 'Pago en moneda local', vincula: true, judge: false, yotpo: false },
     { feature: 'Recuperador de carrito', vincula: true, judge: false, yotpo: 'partial' },
     { feature: 'Google Merchant Sync', vincula: true, judge: false, yotpo: false },
     { feature: 'Precio base', vincula: '$15/mes', judge: '$15/mes', yotpo: '$15/mes+' },
