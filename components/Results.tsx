@@ -182,7 +182,7 @@ export default function Results() {
               </h2>
               <p className="results-subtitle">
                 La prueba social es el factor que más influye en la decisión de compra.
-                Vincula te ayuda a construirla de forma automática, sin esfuerzo.
+                Ouivi te ayuda a construirla de forma automática, sin esfuerzo.
               </p>
             </div>
 

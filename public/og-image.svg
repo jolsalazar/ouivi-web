@@ -29,7 +29,7 @@
   <line x1="800" y1="0" x2="800" y2="630" stroke="white" stroke-opacity="0.04" stroke-width="1"/>
 
   <!-- Logo area -->
-  <text x="80" y="110" font-family="Inter, -apple-system, sans-serif" font-size="52" font-weight="900" letter-spacing="-2" fill="white">Vincula</text>
+  <text x="80" y="110" font-family="Inter, -apple-system, sans-serif" font-size="52" font-weight="900" letter-spacing="-2" fill="white">Ouivi</text>
   <circle cx="354" cy="96" r="9" fill="#10B981"/>
   <text x="366" y="112" font-family="Inter, -apple-system, sans-serif" font-size="52" font-weight="900" fill="rgba(255,255,255,0.4)" letter-spacing="-2">io</text>
 
@@ -67,7 +67,7 @@
   <circle cx="782" cy="106" r="7" fill="#ff5f57"/>
   <circle cx="804" cy="106" r="7" fill="#febc2e"/>
   <circle cx="826" cy="106" r="7" fill="#28c840"/>
-  <text x="860" y="112" font-family="Inter, -apple-system, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)">app.vincula.io</text>
+  <text x="860" y="112" font-family="Inter, -apple-system, sans-serif" font-size="13" fill="rgba(255,255,255,0.4)">app.ouivi.io</text>
 
   <!-- Stats row -->
   <rect x="770" y="148" width="104" height="72" rx="12" fill="rgba(255,255,255,0.08)"/>
@@ -128,5 +128,5 @@
   <text x="1080" y="516" font-family="Inter, sans-serif" font-size="13" fill="#fbbf24" text-anchor="middle">★★★★☆</text>
 
   <!-- Bottom URL -->
-  <text x="80" y="592" font-family="Inter, -apple-system, sans-serif" font-size="18" fill="rgba(255,255,255,0.35)" font-weight="500">vincula.io</text>
+  <text x="80" y="592" font-family="Inter, -apple-system, sans-serif" font-size="18" fill="rgba(255,255,255,0.35)" font-weight="500">ouivi.io</text>
 </svg>

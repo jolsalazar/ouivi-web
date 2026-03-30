@@ -1,10 +1,10 @@
 const faqs = [
   {
-    q: '¿Qué necesito para empezar con Vincula?',
-    a: 'El setup tiene dos partes. Primero, instalas el widget: pegas un script en el <head> de tu tienda y el widget de reviews queda visible de inmediato. Segundo, conectas tu tienda para que Vincula reciba notificaciones de cada compra y pueda enviar los emails automáticamente. Ese segundo paso lo hacemos juntos en el onboarding — no toma más de una sesión.',
+    q: '¿Qué necesito para empezar con Ouivi?',
+    a: 'El setup tiene dos partes. Primero, instalas el widget: pegas un script en el <head> de tu tienda y el widget de reviews queda visible de inmediato. Segundo, conectas tu tienda para que Ouivi reciba notificaciones de cada compra y pueda enviar los emails automáticamente. Ese segundo paso lo hacemos juntos en el onboarding — no toma más de una sesión.',
   },
   {
-    q: '¿Cómo sabe Vincula cuándo ocurre una compra?',
+    q: '¿Cómo sabe Ouivi cuándo ocurre una compra?',
     a: 'A través de una integración con tu plataforma. En Shopify, WooCommerce, Tiendanube o Jumpseller: configuramos un webhook en los ajustes de tu tienda, sin tocar código. En tiendas de desarrollo propio: tu equipo técnico hace una llamada a nuestra API cuando una orden se completa. Documentamos este paso detalladamente y lo acompañamos en el onboarding.',
   },
   {
@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: '¿Los reviews aparecen en Google?',
-    a: 'Vincula genera automáticamente el marcado JSON-LD necesario para que Google pueda interpretar las valoraciones de tus productos. Esto permite que tus páginas aparezcan con estrellas en los resultados de búsqueda. Ten en cuenta que Google requiere un mínimo de reviews y puede tardar algunas semanas en mostrarlos — no es inmediato.',
+    a: 'Ouivi genera automáticamente el marcado JSON-LD necesario para que Google pueda interpretar las valoraciones de tus productos. Esto permite que tus páginas aparezcan con estrellas en los resultados de búsqueda. Ten en cuenta que Google requiere un mínimo de reviews y puede tardar algunas semanas en mostrarlos — no es inmediato.',
   },
   {
     q: '¿Cómo se cobra?',
@@ -161,7 +161,7 @@ export default function FAQ() {
           <div className="faq-cta reveal">
             <p>¿Tienes más preguntas? <strong>Hablemos.</strong></p>
             <a
-              href="https://wa.me/message/vincula"
+              href="https://wa.me/message/ouivi"
               className="btn btn-outline"
               target="_blank"
               rel="noopener noreferrer"

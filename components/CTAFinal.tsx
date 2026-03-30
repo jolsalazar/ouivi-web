@@ -205,7 +205,7 @@ export default function CTAFinal() {
             </h2>
 
             <p className="cta-subtitle">
-              Activa Vincula y empieza a recolectar reviews reales de tus clientes esta semana.
+              Activa Ouivi y empieza a recolectar reviews reales de tus clientes esta semana.
               Sin desarrolladores, sin complicaciones.
             </p>
 

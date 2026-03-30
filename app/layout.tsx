@@ -2,31 +2,31 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Vincula.io — Reviews, recuperador de carrito y Google Merchant para tu ecommerce',
+  title: 'Ouivi.io — Reviews, recuperador de carrito y Google Merchant para tu ecommerce',
   description: 'Reviews automáticos, recuperador de carrito y Google Merchant Sync en una sola herramienta. Compatible con cualquier ecommerce: Tiendanube, WooCommerce, desarrollo propio y más. En español, con soporte local.',
   keywords: 'reviews ecommerce, recuperador de carrito, google merchant sync, tiendanube, jumpseller, woocommerce',
-  authors: [{ name: 'Vincula.io' }],
+  authors: [{ name: 'Ouivi.io' }],
   openGraph: {
-    title: 'Vincula.io — Vende más en tu ecommerce',
+    title: 'Ouivi.io — Vende más en tu ecommerce',
     description: 'Reviews automáticos, recuperador de carrito y Google Merchant Sync. En español, con soporte local.',
-    url: 'https://vincula.io',
-    siteName: 'Vincula.io',
+    url: 'https://ouivi.io',
+    siteName: 'Ouivi.io',
     locale: 'es_419',
     type: 'website',
     images: [
       {
-        url: 'https://vincula.io/og-image.svg',
+        url: 'https://ouivi.io/og-image.svg',
         width: 1200,
         height: 630,
-        alt: 'Vincula.io — Reviews, recuperador de carrito y Google Merchant Sync',
+        alt: 'Ouivi.io — Reviews, recuperador de carrito y Google Merchant Sync',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vincula.io — Vende más en tu ecommerce',
+    title: 'Ouivi.io — Vende más en tu ecommerce',
     description: 'Reviews automáticos, recuperador de carrito y Google Merchant Sync.',
-    images: ['https://vincula.io/og-image.svg'],
+    images: ['https://ouivi.io/og-image.svg'],
   },
   robots: {
     index: true,
